@@ -1,4 +1,4 @@
-[![MIT Licensed][icon-mit]][license] [![Kottans-Frontend][icon-kottans]][kottans-frontend]
+[![MIT Licensed][icon-mit]][license] [![Kottans-Frontend][icon-kottans]][witem-frontend]
 
 # How to Contribute
 
@@ -36,7 +36,7 @@ _TOC is generated with [DocToc](https://github.com/thlorenz/doctoc)_
 - clone your fork to your local machine:
   `git clone https://github.com/YOUR_USERNAME/frontend-2019-p2p.git`
 - add this repository as an upstream:
-  `git remote add upstream https://github.com/kottans/frontend-2019-p2p.git`
+  `git remote add upstream https://github.com/witem/frontend-2019-p2p.git`
 - in your local repository, add a folder with your github name under
   `submissions`
 
@@ -147,4 +147,4 @@ they should not expect any further commits. **C** is for care.
 [icon-mit]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: https://github.com/OleksiyRudenko/a-tiny-JS-world/blob/master/LICENSE.md
 [icon-kottans]: https://img.shields.io/badge/%3D(%5E.%5E)%3D-frontend-yellow.svg
-[kottans-frontend]: https://github.com/kottans/frontend
+[witem-frontend]: https://github.com/witem/frontend
