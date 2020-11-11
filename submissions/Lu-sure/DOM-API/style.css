@@ -1,40 +1,44 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: 24px;
+    font-size: 22px;
     box-sizing: border-box;
     font-family: Comfortaa;
 }
 
-html, body, div.wraper{
+html, body {
     width: 100%;
     height: 100%;
 }
 
-.wraper {
+.wrapper {
     display: flex;
 }
 
 .side{
     min-width: 300px;
-    height: 100%;
-    background-color: lavender; 
+    background-color: lavender;
+    height: auto;
 }
 
 .side.open {
     transform: translate(0, 0);
 }
 
+main {
+    max-height: 1200px;
+}
+
 li {
     height: 50px;
     width: 280;
-    margin: 10px 10px; 
+    margin: 20px 10px; 
     padding: 10px;
     background-color: rgb(201, 187, 221);
 }
 
 li:hover {
-    background-color: rgb(188, 162, 226);  
+    background-color: rgb(184, 155, 226);  
     cursor: pointer;  
 }
 
@@ -43,7 +47,6 @@ div.side-button {
     height: 60px;
     background-image: url(img/bang.jpg);
     display: none;
-
 }
 
 svg.side-button {
@@ -57,16 +60,11 @@ svg.side-button {
     height: 100%;
 }
 
-.hide-hero {
-    display: none;
-}
-
 h2 {
     width: 100%;
     font-size: 2em;
     font-weight: 700;
     margin: 20px;
-    
 }
 
 img {
@@ -88,9 +86,10 @@ p, h3 {
     }
 
     .side{
-        position: absolute;
+        position: fixed;
         transform: translate(-300px, 0);
         transition: transform 0.3s ease;
+        height: 100%;
     }
 }
 
@@ -103,7 +102,7 @@ p, h3 {
 
 @media screen and (min-width: 901px) {
     img, h3 {
-        width: 45%;
+        width: 48%;
     }
 
     h2 {
